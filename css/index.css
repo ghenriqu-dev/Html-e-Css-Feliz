@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #B03E40;
+    border-bottom: 10px solid #3D382D;
+    padding: 10px 20px;
+}
+
+nav{
+    text-align: right;
+}
+
+img{
+    height: 60px;
+    width: 60px;
+}
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before{
+    content: "";
+    background-image: url("assets/img/fireBall.png");
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button{
+    display: inline-block;
+    background-color: #4FB09C;
+    box-shadow: 5px 5px 5px black;
+    padding: 18px 20px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+#button:hover{
+    background-color: #3EC07A;
+    color: #000;
+}
