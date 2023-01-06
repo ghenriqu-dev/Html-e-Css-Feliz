@@ -45,5 +45,6 @@ a::before{
 
 #button:hover{
     background-color: #3EC07A;
-    color: #000;
+    color: #000; 
+    cursor: pointer;   
 }
