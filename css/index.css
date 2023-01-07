@@ -13,6 +13,11 @@ nav{
 img{
     height: 60px;
     width: 60px;
+    transition: transform 450ms ease-out;
+}
+
+img:hover{
+    transform: rotate(-720deg) scale(1.2);
 }
 
 a{
@@ -26,12 +31,27 @@ a{
     margin-right: 30px;
 }
 
-a::before{
+#fireBall{
+    transition: transform 200ms;
+}
+
+#fireBall::before{
     content: "";
-    background-image: url("assets/img/fireBall.png");
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftoppng.com%2Fpublic%2Fuploads%2Fthumbnail%2Fpixel-fireball-fireball-pixel-art-11563130610qatf6kwrk9.png&f=1&nofb=1&ipt=cbdc1f540bf58150c5984e9b352acd2684b9b887574d1626956ba64b889da28a&ipo=images");
     width: 10px;
     height: 10px;
+    transform: scale(1.9);
+    background-size: 100%;
     margin-right: 10px;
+}
+
+#fireBall:hover{
+    transform: scale(1.12);
+}
+
+#fireBall:active{
+    transform: scale(.1);
+    transition: transform 50ms;
 }
 
 #button{
@@ -41,7 +61,7 @@ a::before{
     padding: 18px 20px;
     margin: 0px;
     border-radius: 5px;
-    transition: transform 200ms cubic-bezier(0.45, 0.97, 0.68, 2.67);
+    transition: transform 200ms cubic-bezier(0.45, 0.97, 0.68, 2.80);
 }
 
 #button:hover{
@@ -49,4 +69,9 @@ a::before{
     color: #2c2c54;
     transform: scale(1.08);
     cursor: pointer;
+}
+
+#button:active{
+    transform: scale(.1);
+    transition: transform 100ms;
 }
