@@ -1,0 +1,13 @@
+#nameBox{
+    display: inline-block;
+    background-color: #3A4042;
+    padding: 42px 44px;
+    margin-top: 116px;
+    margin-left: 91px;
+    box-shadow: 5px 5px 0px black;
+    text-align: center;
+}
+
+#nameBox h1{
+    margin-bottom: 28px;
+}

@@ -75,14 +75,3 @@ a{
     transform: scale(.1);
     transition: transform 100ms;
 }
-
-#nameBox{
-    display: inline-block;
-    background-color: #3A4042;
-    width: 627px;
-    height: 184px;
-    margin-top: 116px;
-    margin-left: 91px;
-    box-shadow: 5px 5px 0px black;
-    text-align: center;
-}
