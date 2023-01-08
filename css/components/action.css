@@ -1,0 +1,30 @@
+.action{
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    color: #FFF;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: transform 200ms;
+}
+
+.action::before{
+    content: "";
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftoppng.com%2Fpublic%2Fuploads%2Fthumbnail%2Fpixel-fireball-fireball-pixel-art-11563130610qatf6kwrk9.png&f=1&nofb=1&ipt=cbdc1f540bf58150c5984e9b352acd2684b9b887574d1626956ba64b889da28a&ipo=images");
+    width: 10px;
+    height: 10px;
+    transform: scale(1.9);
+    background-size: 100%;
+    margin-right: 10px;
+}
+
+.action:hover{
+    transform: scale(1.12);
+}
+
+.action:active{
+    transform: scale(.1);
+    transition: transform 50ms;
+} 
