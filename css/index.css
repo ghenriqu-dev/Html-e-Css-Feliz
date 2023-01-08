@@ -76,14 +76,6 @@ a{
     transition: transform 100ms;
 }
 
-h2{
-    margin-top: 28px;
-    color: #FFFFFF;
-    font-size: 30px;
-    font-family: 'Press Start 2P', sans-serif;
-    text-shadow: 5px 5px 0px black;
-}
-
 #nameBox{
     display: inline-block;
     background-color: #3A4042;
@@ -93,8 +85,4 @@ h2{
     margin-left: 91px;
     box-shadow: 5px 5px 0px black;
     text-align: center;
-}
-
-#bgPixel{
-    background-image: "assets\img\photo.png";
 }
