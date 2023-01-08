@@ -1,7 +1,11 @@
-header{
+.header{
     display: flex;
     justify-content: space-between;
     background-color: #474787;
     border-bottom: 10px solid #2c2c54;
     padding: 10px 20px;
+}
+
+.header .navigation{
+    text-align: right;
 }

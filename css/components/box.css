@@ -1,4 +1,4 @@
-.nameBox{
+.box{
     display: inline-block;
     background-color: #3A4042;
     padding: 42px 44px;
@@ -8,6 +8,6 @@
     text-align: center;
 }
 
-.nameBox h1{
+.box .title{
     margin-bottom: 28px;
 }
